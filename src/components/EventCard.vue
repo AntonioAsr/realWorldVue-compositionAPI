@@ -1,22 +1,11 @@
 <script setup>
-import { ref } from 'vue';
-// defineProps({
-//   msg: {
-//     type: String,
-//     required: true
-//   }
-// })
-const event = ref({
-  id: 5928101,
-  category: 'animal welfare',
-  title: 'cat adoption day',
-  description: 'Find your new feline',
-  location: 'London',
-  date: 'January 28, 2023',
-  time: '12:00',
-  petsAllowed: true,
-  organizer: 'John Scott'
+defineProps({
+  event: {
+    type: Object,
+    required: true
+  }
 })
+
 </script>
 
 <template>

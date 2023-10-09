@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </nav>
       </div>
     </header>
+    <h2>2023 Events</h2>
     <RouterView />
   </div>
 
@@ -34,5 +35,8 @@ import { RouterLink, RouterView } from 'vue-router'
   }
   nav a.router-link-exact-active {
     color: #42b983;
+  }
+  h2{
+    font-size: '20px';
   }
 </style>
