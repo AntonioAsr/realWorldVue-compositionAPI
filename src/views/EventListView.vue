@@ -5,7 +5,7 @@ const events = ref([
     {
       id: 234234,
       category: 'origami convention',
-      title: 'fold that',
+      title: 'Fold That',
       description: 'Starting journey for new folders',
       location: 'Brighton',
       date: 'January 4, 2024',
@@ -16,7 +16,7 @@ const events = ref([
     {
       id: 5928101,
       category: 'animal welfare',
-      title: 'cat adoption day',
+      title: 'Cat Adoption Day',
       description: 'Find your new feline',
       location: 'London',
       date: 'January 28, 2023',
